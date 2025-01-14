@@ -22,7 +22,7 @@ async function automateGoogleLogin() {
   await page.click('#identifierId'); // Focus on the input field
 
   // Type your email address and Replace with your email
-  await page.type('#identifierId', 'kumar.rohit@rwit.io'); 
+  await page.type('#identifierId', 'example.gmail.com'); 
 
   await page.click('#identifierNext');
 
@@ -31,7 +31,7 @@ async function automateGoogleLogin() {
   await page.focus('input[name="Passwd"]');
 
   // Type your password and Replace with your password
-  await page.type('input[name="Passwd"]', 'Redefine@123'); 
+  await page.type('input[name="Passwd"]', 'anonymous'); 
 
   // Click the "Next" button to complete the login process
   await page.click('#passwordNext');
